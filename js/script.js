@@ -59,3 +59,20 @@ if (programmeertaal === "PHP") {
 } else {
     console.log("Laten we verder leren.");
 }
+
+for (let i = 1; i <= 10; i++) { // numbers from 1 to 10
+    console.log(i);
+}
+
+for (let i = 2; i <= 10; i+=2) {  // even numbers from 2 to 10
+    console.log(i);
+}
+
+for (let i = 1; i <= 5; i++) {  // print string 5 times
+    console.log("Ik word Full Stack Developer.");
+}
+
+for (let i = 10; i > 0; i--) { // numbers from 10 to 1
+    console.log(i);
+}
+console.log("Start!");
